@@ -1,6 +1,58 @@
-img {
-    border-radius: 50%;
-}
 body {
-    background-color: aliceblue
+    background-color: dimgray;
+    font-family: Roboto;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;    
+}
+
+#language{
+    font-size: 25px;
+    float: left;
+    font-family: Roboto;
+    color: #;
+}
+
+a:link {
+    text-decoration: none;
+    color: #;
+}
+
+.CV{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;    
+}
+
+.w3-light-grey w3-round{
+    
+}
+
+
+#github {
+    color: white;
+}
+#github:hover   {
+    transition: all 1s ease;
+    color: black;
+}
+
+#xing {
+    color: white;
+}
+#xing:hover {
+    transition: all 1s ease;
+    color: #cfdc00;
+}
+
+#linkedin {
+	color: white;
+}
+#linkedin:hover {
+	transition: all 1s ease;
+	color: #2867b2;
 }
