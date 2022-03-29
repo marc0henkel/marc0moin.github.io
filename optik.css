@@ -1,25 +1,59 @@
 body {
-    background-color: dimgray;
-    font-family: Roboto;
+    background-color:#2D2D2D;
+    font-family: Montserrat;
+    color: aliceblue;
 }
 
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;    
-}
+    width: auto;
+    }
 
 #language{
     font-size: 25px;
     float: left;
     font-family: Roboto;
-    color: #;
+    color:#AC2937;
+    position: fixed;
 }
-
+#language:hover{
+    color: aliceblue;
+}
 a:link {
     text-decoration: none;
     color: #;
+}
+
+#about{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    color:aliceblue;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+hr.half-width{
+  width:80%;
+  margin: 0 auto;
+}
+hr.half-width2{
+  width:90%;
+  margin: 0 auto;
+}
+
+.Skills{
+    text-align: center;
+}
+
+.w3-round {
+    width: 20vw;
+    }
+.dev{text-align: center;}
+.w3-light-grey{
+    margin: 0 auto;
 }
 
 .CV{
@@ -28,10 +62,23 @@ a:link {
     right: 20px;    
 }
 
-.w3-light-grey w3-round{
-    
+#contact{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: aliceblue;
+    text-align: center;
 }
 
+#email:hover{
+    color: brown;
+}
+
+.social{
+    bottom: 20px;
+    left: 20px;
+    position: relative;
+    font-size: 20px;
+}
 
 #github {
     color: white;
@@ -55,4 +102,14 @@ a:link {
 #linkedin:hover {
 	transition: all 1s ease;
 	color: #2867b2;
+}
+
+.footer{
+    
+}
+
+::selection{
+    background: #AC2937;
+	color: #FFF;
+	text-shadow:none;
 }
