@@ -104,10 +104,7 @@ hr.half-width2{
 	color: #2867b2;
 }
 
-.footer{
-    
-}
-
+.footer{position:}
 ::selection{
     background: #AC2937;
 	color: #FFF;
