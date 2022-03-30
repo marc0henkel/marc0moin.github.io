@@ -2,7 +2,7 @@ body {
     background-color:#2D2D2D;
     font-family: Montserrat;
     color: aliceblue;
-    background-image: url(5447766.jpg);
+    background-image: url(pexels-pok-rie-1319750.jpg);
 }
 
 .logo {
@@ -52,7 +52,9 @@ hr.half-width2{
 .w3-round {
     width: 20vw;
     }
-.dev{text-align: center;}
+.dev{
+    text-align: center;
+}
 .w3-light-grey{
     margin: 0 auto;
 }
